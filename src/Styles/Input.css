@@ -1,0 +1,72 @@
+.TopContain{
+    padding: 5px;
+    background-color: rgb(188, 188, 247);
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgb(0, 0, 0) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    flex-direction: column;
+}
+
+.insert-del{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 90vw;
+}
+
+.contents, .content2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.stringName, .stringName2{
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+.btn-Add, .btn-Del{
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.title{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.btn-Add:hover, .btn-Del:hover{
+    background-color: rgb(211, 211, 211);
+    cursor: pointer;
+}
+
+
+.tree-node{
+
+    fill: #e0f7fa;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.tree-node:hover {
+    transform: scale(1.01);
+    fill: #b2dfdb;
+}
+
+text
+{
+    fill: black;
+}
+
+.treeContainer
+{
+    overflow: auto;
+}

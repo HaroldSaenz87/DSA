@@ -11,6 +11,6 @@ SVG -> Graphics for drawing nodes and edges.
 JavaScript -> Layout calculations and tree traversal.
 
 ## Preview
-Here's what the BST Visualizer looks like:
+Here's what the Binary Tree Visualizer looks like:
 
 ![Binary Tree Screenshot](./BST_.jpg)
